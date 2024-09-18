@@ -1,0 +1,36 @@
+.common_bubbleImg__Y_kaq {
+    position: absolute;
+    z-index: 0;
+    left: 100px;
+    top: 100px;
+    animation: common_moveIn8__7HcKH 10s linear infinite;
+}
+
+@media screen and (max-width: 400px) {
+    .common_bubbleImg__Y_kaq {
+        height: 260px;
+        width: 260px;
+        right: -100px;
+    }
+}
+
+/* Bubble SVG animation */
+@keyframes common_moveIn8__7HcKH {
+
+    0%,
+    to {
+        transform: translateX(0) translateY(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(50px) translateY(50px) rotate(30deg);
+    }
+
+    50% {
+        transform: translateX(0) translateY(100px) rotate(60deg);
+    }
+
+    75% {
+        transform: translateX(-50px) translateY(50px) rotate(90deg);
+    }
+}
