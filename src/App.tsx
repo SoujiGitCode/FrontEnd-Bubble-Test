@@ -13,11 +13,11 @@ function App() {
         className="w-32 sm:w-32 max-w-full mb-8"
       />
 
-      {/* Header */}
-      <header className="text-center mb-8">
+      {/* Input Header */}
+      <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-[#333]">Custom Input for Bubble</h1>
         <p className="text-lg text-gray-600 mt-2">This is a custom tag input component as part of the Bubble test</p>
-      </header>
+      </div>
 
       {/* TagInput Container */}
       <div className="w-full max-w-lg bg-white shadow-lg rounded-lg p-6 z-10 relative">
